@@ -1,0 +1,51 @@
+/* Set background color for body */
+  body {
+    background-color: #f1f1f1;
+  }
+
+/* Set font family and size for all text */
+  body, input, select, button, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: thick;
+  }
+
+/* Set background color and font color for main navigation tabs */
+  .navbar-inverse .navbar-nav>li>a {
+    background-color: #007bff;
+      color: #fff;
+  }
+
+/* Set background color for active main navigation tab */
+  .navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: #0069d9;
+}
+
+/* Set background color for secondary navigation tabs */
+  .nav-tabs>li>a {
+    background-color: #f8f9fa;
+  }
+
+/* Set background color and font color for active secondary navigation tab */
+  .nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+  background-color: yellow;
+    color: #red;
+}
+
+/* Set font color for table headers */
+  .table thead th {
+    color: green;
+  }
+
+/* Set background color and font color for table rows */
+  .table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+.table tbody tr:hover {
+  background-color: #e9ecef;
+    color: #000;
+}

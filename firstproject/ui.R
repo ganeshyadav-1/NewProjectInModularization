@@ -1,7 +1,7 @@
 library(shiny)
 library(shinydashboard)
 
-
+# checkin with github account
 ui <- fluidPage(
   tags$head(
     tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")
